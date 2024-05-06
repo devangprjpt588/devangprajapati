@@ -86,7 +86,7 @@ const Skills = () => {
                             <div className='w-1/3 sm:w-1/6'>
                                 <div className='shadow-lg shadow-sky-600/[.2] text-center p-2 m-2'>
                                     <DiPhotoshop className='text-6xl mx-auto m-4' />
-                                    <p>Figma</p>
+                                    <p>Photoshop</p>
                                 </div>
                             </div>
                         </div>

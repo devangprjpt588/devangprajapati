@@ -20,10 +20,10 @@ const Contact = () => {
                             <div className='flex flex-row justify-center flex-wrap pt-16'>
                                 <div className='w-full md:w-2/4 xl:w-1/4'>
                                     <a href="mail:devangprjpt@gmail.com">
-                                        <div className='bg-white p-2 m-2 rounded-xl hover:-translate-y-1 duration-300 text-sky-600'>
+                                        <div className='bg-slate-600/[.5] shadow-lg shadow-white/[.2] p-2 m-2 rounded-xl hover:-translate-y-1 duration-300'>
                                             <div className="flex flex-col items-center justify-center">
                                                 <MdEmail className='text-6xl mx-auto mb-2' />
-                                                <p className="text-slate-600 text-lg">
+                                                <p className="text-lg">
                                                     devangprjpt@gmail.com
                                                 </p>
                                             </div>
@@ -32,10 +32,10 @@ const Contact = () => {
                                 </div>
                                 <div className='w-full md:w-2/4 xl:w-1/4'>
                                     <a href="tel:+918390122902">
-                                        <div className='bg-white p-2 m-2 rounded-xl hover:-translate-y-1 duration-300 text-sky-600'>
+                                        <div className='bg-slate-600/[.5] shadow-lg shadow-white/[.2] p-2 m-2 rounded-xl hover:-translate-y-1 duration-300'>
                                             <div className="flex flex-col items-center justify-center">
                                             <IoIosCall className='text-6xl mx-auto mb-2' />
-                                                <p className="text-slate-600 text-lg">
+                                                <p className="text-lg">
                                                     +91 8390122902
                                                 </p>
                                             </div>
