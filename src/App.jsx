@@ -1,7 +1,6 @@
 import './App.css'
 import './components/common.css';
 import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -12,7 +11,6 @@ function App() {
   return (
     <>
       <Navbar/>
-      {/* <Footer/> */}
       <Home/>
       <About/>
       <Skills/>
