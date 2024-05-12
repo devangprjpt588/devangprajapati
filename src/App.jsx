@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import ScrollToTop from './components/ScrollToTop';
 import Callout from './components/Callout';
+import FollowMe from './components/FollowMe';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <>
       <Navbar/>
       <ScrollToTop/>
+      <FollowMe/>
       <Home/>
       <About/>
       <Skills/>

@@ -21,7 +21,7 @@ const ScrollToTop = () => {
         <>
             {isVisible && (
                 <div className={`scroll-component ${isVisible ? 'visible' : ''}`}>
-                    <div className='animate-[bounce_1s_ease-in-out_2] bg-sky-600 p-2 text-xl rounded-lg text-white bottom-4 right-4 fixed cursor-pointer z-10'>
+                    <div className='animate-[bounce_1s_ease-in-out_2] bg-sky-600 p-2 text-xl rounded-lg text-white bottom-20 right-4 fixed cursor-pointer z-10'>
                         <Link to="home" smooth={true} duration={500}>
                             <HiArrowNarrowUp />
                         </Link>
