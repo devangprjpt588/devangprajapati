@@ -5,12 +5,14 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
 
   return (
     <>
       <Navbar/>
+      <ScrollToTop/>
       <Home/>
       <About/>
       <Skills/>

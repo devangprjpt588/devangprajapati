@@ -9,8 +9,8 @@ const About = () => {
     <div name="about" className='container mx-auto'>
       <div className='px-4 pt-28 lg:pt-0 my-36 lg:mt-0 md:w-10/12 mx-auto lg:h-screen items-stretch w-full'>
         <div className='lg:h-full flex flex-col justify-center'>
-        <div class="flex flex-col justify-center items-center w-full">
-          <h2 class="text-3xl text-sky-600 font-bold uppercase border-b-2 border-sky-600">About Me</h2>
+        <div className="flex flex-col justify-center items-center w-full">
+          <h2 className="text-3xl text-sky-600 font-bold uppercase border-b-2 border-sky-600">About Me</h2>
         </div>
         <div className='flex flex-col lg:flex-row'>
           <div className='w-full lg:w-3/4 lg:pr-8'>
