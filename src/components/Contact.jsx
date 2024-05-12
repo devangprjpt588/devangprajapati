@@ -4,41 +4,36 @@ import { IoIosCall } from "react-icons/io";
 
 const Contact = () => {
     return (
-        <div name="contact" className='bg-slate-700'>
+        <div name="contact" className='bg-slate-900'>
             <div className='container mx-auto'>
-                <div className='px-4 pt-32 xl:w-10/12 mx-auto flex flex-col justify-center items-stretch w-full text-white'>
-                    <div className='h-screen'>
-                        <div className='flex flex-col justify-center items-center w-full relative'>
-                            <h2 className='text-6xl sm:text-8xl text-white/[0.2] uppercase'>Contact</h2>
-                            <p className='text-2xl sm:text-3xl absolute border-b-2'>Let's Talk</p>
+                <div className='px-4 py-36 lg:py-64 md:w-10/12 mx-auto lg:h-screen items-stretch w-full'>
+                    <div className='lg:h-full flex flex-col justify-center'>
+                        <div className="flex flex-col justify-center items-center w-full">
+                            <h2 className="text-3xl text-white font-bold uppercase border-b-2 border-white">Let's Talk</h2>
                         </div>
-                        <div className='lg:w-full flex flex-wrap justify-center mx-auto pt-16 text-center'>
-                            <p>Exploring pathways to professional evolution, seeking roles where I can thrive, innovate, and contribute positively.</p>
-                            <p>If you have a fitting opportunity, let's talk!</p>
+                        <div className='lg:w-full flex flex-col justify-center mx-auto pt-8 text-xl text-center text-white'>
+                            <p>I enjoy discussing new projects and design challenges.</p>
+                            <p>If you have a fitting opportunity, Let's get in touch!</p>
                         </div>
                         <div className='w-full'>
-                            <div className='flex flex-row justify-center flex-wrap pt-16'>
-                                <div className='w-full md:w-2/4 xl:w-1/4'>
-                                    <a href="mail:devangprjpt@gmail.com">
-                                        <div className='bg-slate-600/[.5] shadow-lg shadow-white/[.2] p-2 m-2 rounded-xl hover:-translate-y-1 duration-300'>
-                                            <div className="flex flex-col items-center justify-center">
-                                                <MdEmail className='text-6xl mx-auto mb-2' />
-                                                <p className="text-lg">
-                                                    devangprjpt@gmail.com
-                                                </p>
-                                            </div>
+                            <div className='flex flex-row justify-center flex-wrap pt-16 text-white divide-y md:divide-y-0 md:divide-x'>
+                                <div className='w-full md:w-1/2'>
+                                    <a href="tel:+918390122902">
+                                        <div className='text-center p-8 m-2'>
+                                            <IoIosCall className='text-6xl mx-auto mb-2' />
+                                            <p className="text-xl">
+                                                +91 8390122902
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
-                                <div className='w-full md:w-2/4 xl:w-1/4'>
-                                    <a href="tel:+918390122902">
-                                        <div className='bg-slate-600/[.5] shadow-lg shadow-white/[.2] p-2 m-2 rounded-xl hover:-translate-y-1 duration-300'>
-                                            <div className="flex flex-col items-center justify-center">
-                                            <IoIosCall className='text-6xl mx-auto mb-2' />
-                                                <p className="text-lg">
-                                                    +91 8390122902
-                                                </p>
-                                            </div>
+                                <div className='w-full md:w-1/2'>
+                                    <a href="mailto:devangprjpt@gmail.com">
+                                        <div className='text-center p-8 m-2'>
+                                            <MdEmail className='text-6xl mx-auto mb-2' />
+                                            <p className="text-xl">
+                                                devangprjpt@gmail.com
+                                            </p>
                                         </div>
                                     </a>
                                 </div>

@@ -6,6 +6,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import ScrollToTop from './components/ScrollToTop';
+import Callout from './components/Callout';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
+      <Callout/>
       <Contact/>
     </>
   )

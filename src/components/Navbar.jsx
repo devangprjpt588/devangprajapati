@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaHome } from "react-icons/fa";
 import {Link} from 'react-scroll';
 
 const Navbar = () => {
@@ -20,10 +21,10 @@ const Navbar = () => {
                     </div>
 
                     {/* Menu */}
-                    <ul className='hidden md:flex text-slate-600'>
+                    <ul className='hidden md:flex items-center text-slate-600'>
                         <li>
                             <Link to="home" smooth={true} duration={500}>
-                                Home
+                                <FaHome/>
                             </Link>
                         </li>
                         <li>
@@ -36,7 +37,6 @@ const Navbar = () => {
                                 Skills
                             </Link>
                         </li>
-                        {/* <li>Work</li> */}
                         <li>
                             <Link to="contact" smooth={true} duration={500}>
                                 Contact
@@ -61,7 +61,6 @@ const Navbar = () => {
                                 About
                             </Link>
                         </li>
-                        {/* <li className='my-6 text-4xl'>Work</li> */}
                         <li className='my-6 text-4xl'>
                             <Link to="skills" smooth={true} duration={500} onClick={handleClick}>
                                 Skills
