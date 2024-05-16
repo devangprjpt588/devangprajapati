@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  li {
+  .navlinks li {
     @apply mx-4;
     @apply text-lg;
     @apply cursor-pointer;

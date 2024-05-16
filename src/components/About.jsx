@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { HiArrowNarrowDown } from 'react-icons/hi';
-import DownloadResume from '../assets/DevangPrajapati-Resume.pdf';
+import DownloadResume from '../assets/DevangPrajapati_Resume.pdf';
 
 const About = () => {
   return (
@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className='flex flex-col lg:flex-row'>
               <div className='w-full lg:w-3/4 lg:pr-8'>
-                <div className='text-justify text-xl text-white'>
+                <div className='lg:text-justify text-xl text-white'>
                   <p className='pt-8 pb-4'>Holding 10+ years of professional experience in Web UX/UI Design and Development. A Skilled UI Developer with a flair for adopting new technologies and building UI in Web Development using UI technologies. Good exposure on each of the phases of Web Development and developing projects from stage of concept to full implementation. Always ready for new challenges.</p>
                   <p>I'm actively seeking new challenges where I can apply my expertise, expand my skills, and make meaningful contributions. If you have an exciting opportunity that aligns with my background, I'd love to hear from you!</p>
                 </div>

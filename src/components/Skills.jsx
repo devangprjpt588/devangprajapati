@@ -23,67 +23,67 @@ const Skills = () => {
                         </div>
                         <div className='lg:w-full flex flex-wrap justify-center mx-auto pt-16 text-slate-900'>
                             <div className='w-1/2 md:w-1/3 xl:w-1/6'>
-                                <div className='shadow-lg text-center p-4 m-2'>
+                                <div className='bg-white shadow-lg text-center p-4 m-2'>
                                     <FaHtml5 className='text-6xl mx-auto mb-2' />
                                     <p>HTML</p>
                                 </div>
                             </div>
                             <div className='w-1/2 md:w-1/3 xl:w-1/6'>
-                                <div className='shadow-lg text-center p-4 m-2'>
+                                <div className='bg-white shadow-lg text-center p-4 m-2'>
                                     <FaCss3Alt className='text-6xl mx-auto mb-2' />
                                     <p>CSS</p>
                                 </div>
                             </div>
                             <div className='w-1/2 md:w-1/3 xl:w-1/6'>
-                                <div className='shadow-lg text-center p-4 m-2'>
+                                <div className='bg-white shadow-lg text-center p-4 m-2'>
                                     <FaBootstrap className='text-6xl mx-auto mb-2' />
                                     <p>Bootstrap</p>
                                 </div>
                             </div>
                             <div className='w-1/2 md:w-1/3 xl:w-1/6'>
-                                <div className='shadow-lg text-center p-4 m-2'>
+                                <div className='bg-white shadow-lg text-center p-4 m-2'>
                                     <SiTailwindcss className='text-6xl mx-auto mb-2' />
                                     <p>TailwindCSS</p>
                                 </div>
                             </div>
                             <div className='w-1/2 md:w-1/3 xl:w-1/6'>
-                                <div className='shadow-lg text-center p-4 m-2'>
+                                <div className='bg-white shadow-lg text-center p-4 m-2'>
                                     <FaSass className='text-6xl mx-auto mb-2' />
                                     <p>Sass</p>
                                 </div>
                             </div>
                             <div className='w-1/2 md:w-1/3 xl:w-1/6'>
-                                <div className='shadow-lg text-center p-4 m-2'>
+                                <div className='bg-white shadow-lg text-center p-4 m-2'>
                                     <IoLogoJavascript className='text-6xl mx-auto mb-2' />
                                     <p>Javascript</p>
                                 </div>
                             </div>
                             <div className='w-1/2 md:w-1/3 xl:w-1/6'>
-                                <div className='shadow-lg text-center p-4 m-2'>
+                                <div className='bg-white shadow-lg text-center p-4 m-2'>
                                     <DiJqueryLogo className='text-6xl mx-auto mb-2' />
                                     <p>jQuery</p>
                                 </div>
                             </div>
                             <div className='w-1/2 md:w-1/3 xl:w-1/6'>
-                                <div className='shadow-lg text-center p-4 m-2'>
+                                <div className='bg-white shadow-lg text-center p-4 m-2'>
                                     <FaReact className='text-6xl mx-auto mb-2' />
                                     <p>React</p>
                                 </div>
                             </div>
                             <div className='w-1/2 md:w-1/3 xl:w-1/6'>
-                                <div className='shadow-lg text-center p-4 m-2'>
+                                <div className='bg-white shadow-lg text-center p-4 m-2'>
                                     <FaAngular className='text-6xl mx-auto mb-2' />
                                     <p>Angular</p>
                                 </div>
                             </div>
                             <div className='w-1/2 md:w-1/3 xl:w-1/6'>
-                                <div className='shadow-lg text-center p-4 m-2'>
+                                <div className='bg-white shadow-lg text-center p-4 m-2'>
                                     <FaFigma className='text-6xl mx-auto mb-2' />
                                     <p>Figma</p>
                                 </div>
                             </div>
                             <div className='w-1/2 md:w-1/3 xl:w-1/6'>
-                                <div className='shadow-lg text-center p-4 m-2'>
+                                <div className='bg-white shadow-lg text-center p-4 m-2'>
                                     <DiPhotoshop className='text-6xl mx-auto mb-2' />
                                     <p>Photoshop</p>
                                 </div>
